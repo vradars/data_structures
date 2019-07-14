@@ -13,7 +13,7 @@ int main()
 	{
 		if(arr[i]==c)
 		{
-			printf("%d",arr[i])
+			printf("the element is found on %d index",i);
 				break;
 		}
 	}
