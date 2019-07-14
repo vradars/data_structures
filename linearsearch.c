@@ -2,10 +2,10 @@
 int main(void)
 {
 	int n,i,m;
-	scanf("%d",n);
+	scanf("%d",&n);
 	int arr[n];
 	int k;
-	Scanf("%d",k)
+	Scanf("%d",&k);
 		//ele to search
 	for(i=0;i<n;i++)
 	{
