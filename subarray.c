@@ -1,11 +1,13 @@
 #include<stdio.h>
-int main()
+#include<stdlib.h>
+int main(int argc,const char *argv[])
 {
-	int n,arr[10];
-	scanf("%d",&n);
-	for(int i=0;i<n;i++)
+	int n,arr[10],l=0;
+	n=argc-1;
+	for(int i=1;i<argc;i++)
 	{
-		scanf("%d",&arr[i]);//Entering all the n no of elements
+		arr[l]=atoi(argv[i]);
+		l++;
 	}
 	for(int i=0;i<n;i++)
 	{
